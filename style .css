@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 120vh;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mini-container {
+    background-color: #f3f3f3;
+    height: 110vh;
+    width: 90%;
+    border-radius: 10px;
+}
+
+nav {
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+nav h3 {
+    width: 150px;
+    margin-left: 45px;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+span {
+    width: 30%;
+    padding-left: 80px;
+}
+
+span :first-child {
+    background-color: #f3f3f3;
+    border: none;
+}
+
+span :nth-last-child(1) {
+    background-color: black;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 55px;
+    background-origin: none;
+}
+
+.smart-shop {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.btn button {
+    background-color: white;
+    height: 45px;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+
+}
+
+.btn button a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#smart-app {
+    background-color: black;
+}
+
+#smart-app a {
+    background-color: black;
+    color: white;
+}
+
+.img-section {
+    background: url(./img.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
